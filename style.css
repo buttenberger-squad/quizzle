@@ -11,7 +11,7 @@ body {
     background-color:white;
     padding: 0 20px 20px 20px; /*oben, rechts, unten, links*/
     border: 5px solid black;
-    background-image: url("quiz_time.jpg");
+    /*background-image: url("quiz_time.jpg");*/
     background-size: contain;
   }
   h1 {
@@ -50,10 +50,33 @@ p {
   color: white;
 }
 
-.antworten {
-  color: red;
+.frage {
+  padding: 5px;
+  margin-bottom: 20px;
+  color: greenyellow;
+  text-align: center;
+  display: inline-block;
+  border: 1px dotted pink;
 }
 
-#frage {
-  color: green;
+#karsten{
+  padding: 20px 20px;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+  /* flex-grow: 2; */
+  flex-wrap: wrap;
+}
+
+.antworten {
+  margin: 10px 10px;
+  border: 2px solid black;
+  color: red;
+  /* display: inline-block; */
+  width: 45%;
+  min-height: 100px;
+  /* flex-grow: 2; */
+  /* left: 0; */
 }

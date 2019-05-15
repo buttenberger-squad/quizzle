@@ -1,0 +1,47 @@
+html {
+    font-size: 20px; /* px bedeutet 'pixels': die Schriftgröße wird auf 10 Pixel gesetzt  */
+    font-family: Platzhalter; /* hier kommt der Name der ausgewählten Schriftfamilie hin */
+    text-align: center;
+    background-image: url("hintergrund.jpg");
+    background-size: cover;
+  }
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 0 20px 20px 20px; /*oben, rechts, unten, links*/
+    border: 5px solid black;
+    background-image: url("quiz_time.jpg");
+    background-size: contain;
+  }
+  h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+  }
+p {
+    color: red;
+    border: 1px solid black;
+  }
+#spoiler_main {
+  width: 100px;
+  margin: 10px 0;
+  background-color:grey;
+  padding: 0 1px 0 1px;
+  border: 5px solid black;
+}
+#spoiler_off {
+  width: 100px;
+  margin: 5px 0;
+  background-color:black;
+  color:red;
+  padding: 0 1px 0 1px;
+  border: 5px solid black;
+}
+#musik_feld {
+  margin: 0 0;
+  border: 3px solid green;
+  padding: 0 1px 0 1px;
+  background-color: brown;
+}
